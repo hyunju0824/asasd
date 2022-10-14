@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #222;
+}
+
+address, i,em{
+    font-style: normal;
+}
+/*img*/
+img{
+    vertical-align: top;
+}
+/*.blind*/
+.blind{
+    position: absolute;
+    top: -99999px;
+}
+
+/*input*/
+/*table*/
+/*.skip*/
+/*clearFix*/
+
+.clearFix::after{
+content: "";;
+display: block;
+clear: both;
+}
+
+/*위의 것들이 추가되어야한다!*/
